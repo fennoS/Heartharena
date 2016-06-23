@@ -134,10 +134,10 @@ return array(
 	 */
 	'EMAIL_USED_MAILER' => 'phpmailer',
 	'EMAIL_USE_SMTP' => true,
-	'EMAIL_SMTP_HOST' => '127.0.0.1',
+	'EMAIL_SMTP_HOST' => 'localhost',
 	'EMAIL_SMTP_AUTH' => false,
-	'EMAIL_SMTP_USERNAME' => 'Admin',
-	'EMAIL_SMTP_PASSWORD' => 'furkan99',
+	'EMAIL_SMTP_USERNAME' => 'AdminFenno',
+	'EMAIL_SMTP_PASSWORD' => 'FennoS',
 	'EMAIL_SMTP_PORT' => 25,
 	'EMAIL_SMTP_ENCRYPTION' => 'false',
 	/**
