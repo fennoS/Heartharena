@@ -1,5 +1,5 @@
 <?php
-//dit is dev, doei fenno
+
 class CommentController extends Controller
 {
     
