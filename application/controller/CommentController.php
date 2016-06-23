@@ -1,5 +1,5 @@
 <?php
-//dit is dev, hoi furkan!
+//dit is dev, doei fenno!
 class CommentController extends Controller
 {
     
