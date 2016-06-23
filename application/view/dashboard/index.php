@@ -1,4 +1,3 @@
-
 <div class="container">
     <h1>DashboardController/index</h1>
     <div class="box">
