@@ -1,7 +1,7 @@
 <div class="container">
     <h1>Home</h1>
     <div class="box">
-
+    
         <!-- echo out the system feedback (error and success messages) -->
         <?php $this->renderFeedbackMessages(); ?>
 
@@ -35,3 +35,5 @@
         <div class="lol">Wij zijn niet verantwoordelijk voor verlies/misbruik van persoonlijke gegevens</div>
     </div>
 </div>
+
+

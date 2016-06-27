@@ -6,8 +6,15 @@
     <meta charset="utf-8">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo Config::get('URL'); ?>css/style.css" />
+    <script>
+    window.addEventListener("load", function(){
+    var load_screen = document.getElementById("load_screen");
+    document.body.removeChild(load_screen);
+    });
+</script>
 </head>
 <body>
+<div id="load_screen"><div id="loading">Even geduld..</div></div>
     <!-- wrapper, to center website -->
     <div class="wrapper">
         <!-- navigation -->

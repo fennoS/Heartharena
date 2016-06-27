@@ -1,3 +1,29 @@
+div#load_screen{
+    background: #000;
+    opacity: 1;
+    position: fixed;
+    z-index:10;
+    top: 0px;
+    width: 100%;
+    height: 1600px;
+    font-size: 20px;
+}
+div#load_screen > div#loading{
+    color:#FFF;
+    width:120px;
+    height:24px;
+    margin: 300px auto;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
 body {
     font-family: Arial, sans-serif;
     font-weight: 400;
@@ -7,6 +33,7 @@ body {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
+    overflow-x: hidden;
 }
 .wrapper {
     width: 960px;
