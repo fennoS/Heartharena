@@ -39,4 +39,19 @@ class CommentController extends Controller
         CommentModel::updateComment(Request::post('comment_id'), Request::post('comment_text'));
         Redirect::to('comment');
     }
+
+    public function like()
+    {
+
+
+
+    }
+
+    
+    public function unlike()
+    {
+
+
+
+    }
 }
