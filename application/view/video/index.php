@@ -21,6 +21,7 @@
             <li <?php if (View::checkForActiveController($filename, "edit")) { echo ' class="active" '; } ?> >
                 <a href="<?php echo Config::get('URL'); ?>video/edit/<?php echo $video->video_id ?>">Edit Title</a>
                 <i class="fa fa-pencil" aria-hidden="true"></i><br>
+
             <br>
             </div>
             </li>
