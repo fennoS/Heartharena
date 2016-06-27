@@ -48,6 +48,7 @@ class VideoController extends Controller
     {
         VideoModel::editVideo(Request::post('video_id'), Request::post('video_title'), Request::post('video_url'));
         Redirect::to('video');
+        
     }
 
 }
