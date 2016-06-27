@@ -1,5 +1,5 @@
 <?php
-//dit is dev, hoi furkan!
+
 class CommentController extends Controller
 {
     
